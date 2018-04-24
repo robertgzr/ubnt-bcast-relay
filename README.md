@@ -11,7 +11,7 @@
 - Can also be configured from the EdgeOS Web GUI
 - Lightweight, very low overhead for home based networks
 
-### This solution is designed to work on EdgeMAX routers. It has been tested up to EdgeOS v1.8.0
+### This solution is designed to work on EdgeMAX routers. It has been tested up to EdgeOS v1.10.1
 
 So, like many folk who like to segregate our SOHO home networks with VLANs, subnets, etc., I was frustrated at not being able to use iOS apps, Windows drivers etc. to find and use (in my case) a Play-Fi LAN streaming speaker system on my logical networks.
 
