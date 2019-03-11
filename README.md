@@ -71,7 +71,7 @@ This generates a configuration stanza like this:
     }
 
 
-### Remove configureation
+### Remove configuration
 
 Run configure
     delete service bcast-relay
