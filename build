@@ -2,7 +2,7 @@
 export COPY_EXTENDED_ATTRIBUTES_DISABLE=true
 export COPYFILE_DISABLE=true
 
-VERSION='1.0'
+VERSION='1.1'
 NAME='ubnt_bcast_relay'
 DROPBOX='/Users/Neil/Dropbox/EdgeMax'
 BCAST="${NAME}.${VERSION}."
