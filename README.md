@@ -11,7 +11,7 @@
 - Can also be configured from the EdgeOS Web GUI
 - Lightweight, very low overhead for home based networks
 
-### This solution is designed to work on EdgeMAX routers. It has been tested up to EdgeOS v1.10.1
+### This solution is designed to work on EdgeMAX routers. It has been tested up to EdgeOS v1.10.x
 
 So, like many folk who like to segregate our SOHO home networks with VLANs, subnets, etc., I was frustrated at not being able to use iOS apps, Windows drivers etc. to find and use (in my case) a Play-Fi LAN streaming speaker system on my logical networks.
 
@@ -31,12 +31,12 @@ YMMV and of course, there is always a risk using any non Ubiquiti approved/test 
 
 ## Installation
 
-* upload install_ubnt_bcast_relay.v1.0 to your router
+* upload install_ubnt_bcast_relay.v1.1 to your router
 
-        curl -o /tmp/install_ubnt_bcast_relay.v1.0.tgz https://community.ubnt.com/ubnt/attachments/ubnt/EdgeMAX/67208/1/ubnt-bcast-relay.v1.0.tgz
+        curl -o /tmp/install_ubnt_bcast_relay.v1.0.tgz https://github.com/britannic/ubnt-bcast-relay/raw/master/ubnt_bcast_relay.1.1.setup.tgz
         cd /tmp
-        sudo tar zxvf ./install_ubnt_bcast_relay.v1.0.tgz
-        sudo bash ./install_ubnt_bcast_relay.v1.0
+        sudo tar zxvf ./install_ubnt_bcast_relay.v1.1.tgz
+        sudo bash ./install_ubnt_bcast_relay.v1.1
         select menu option #1 if installing for the first time
         select menu option #2 to completely remove ubnt_bcast_relay
 
