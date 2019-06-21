@@ -1,15 +1,16 @@
 # [Multicast, Sonos, Phorus & Play-Fi Broadcast 255.255.255.255:<port> Discovery Solution](https://community.ubnt.com/t5/EdgeMAX/Multicast-Sonos-Phorus-amp-Play-Fi-Broadcast-255-255-255-255-lt/td-p/1259616)
 
 ## Licenses
+
 * GNU General Public License, version 3
 * GNU Lesser General Public License, version 3
 
 ## Features
 
-- [UDP Packet Broadcast Relay](http://www.joachim-breitner.de/udp-broadcast-relay/) compiled for EdgeMAX MIPS64
-- Integrated with EdgeOS CLI
-- Can also be configured from the EdgeOS Web GUI
-- Lightweight, very low overhead for home based networks
+* [UDP Packet Broadcast Relay](http://www.joachim-breitner.de/udp-broadcast-relay/) compiled for EdgeMAX MIPS64
+* Integrated with EdgeOS CLI
+* Can also be configured from the EdgeOS Web GUI
+* Lightweight, very low overhead for home based networks
 
 ### This solution is designed to work on EdgeMAX routers. It has been tested up to EdgeOS v1.10.x
 
@@ -45,9 +46,11 @@ YMMV and of course, there is always a risk using any non Ubiquiti approved/test 
 ## Configuration
 
 ### Setup initial configuration
+
 Using the network description above, here is a working example:
 
-Run configure
+Run configure:
+
     set service bcast-relay id 1 description 'Play-Fi listener'
     set service bcast-relay id 1 interface eth0.5
     set service bcast-relay id 1 interface eth0.6
@@ -70,7 +73,6 @@ This generates a configuration stanza like this:
         }
     }
 
-
 ### Remove configuration
 
 Run configure
@@ -79,7 +81,6 @@ Run configure
     save
     exit
 
-
 #### To clone UBNT Broadcast Relay:
-* git clone https://github.com/britannic/ubnt-bcast-relay.git
 
+    git clone https://github.com/britannic/ubnt-bcast-relay.git
