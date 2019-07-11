@@ -34,7 +34,7 @@ YMMV and of course, there is always a risk using any non Ubiquiti approved/test 
 
 * upload install_ubnt_bcast_relay.v1.2 to your router
 
-        curl -Lo /tmp/install_ubnt_bcast_relay.v1.2.tgz https://github.com/britannic/ubnt-bcast-relay/raw/master/ubnt_bcast_relay.1.1.setup.tgz
+        curl -Lo /tmp/install_ubnt_bcast_relay.v1.2.tgz https://github.com/britannic/ubnt-bcast-relay/raw/master/install_ubnt_bcast_relay.v1.2.tgz 
         cd /tmp
         sudo tar zxvf ./install_ubnt_bcast_relay.v1.2.tgz
         sudo bash ./install_ubnt_bcast_relay.v1.2
