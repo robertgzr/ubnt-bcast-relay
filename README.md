@@ -40,6 +40,15 @@ YMMV and of course, there is always a risk using any non Ubiquiti approved/test 
         sudo bash ./install_ubnt_bcast_relay.v1.2
         select menu option #1 if installing for the first time
         select menu option #2 to completely remove ubnt_bcast_relay
+        
+## Installation steps for EdgeRouter X
+
+* upload ubnt-bcast-relay_ER-X.tgz to your router and run the installer
+        
+        curl -Lo /tmp/ubnt-bcast-relay_ER-X.tgz https://github.com/britannic/ubnt-bcast-relay/raw/master/ubnt-bcast-relay_ER-X.tgz
+        cd /tmp
+        sudo tar zxvf ./ubnt-bcast-relay_ER-X.tgz
+        sudo bash ./ubnt-bcast-relay/install.sh
 
 ## Removal
 
