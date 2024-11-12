@@ -1,0 +1,3 @@
+[submodule "source/udp-bcast-relay"]
+	path = source/udp-bcast-relay
+	url = https://github.com/nomeata/udp-broadcast-relay
